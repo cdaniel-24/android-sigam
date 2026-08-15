@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">AndroidSigam</string>
+    <string name="app_name">SIGAM Popayán</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="correo">usuario@ejemplo.com</string>
+    <string name="password">********</string>
+    <string name="olvidaste">¿Olvidaste tu contraseña?</string>
+    <string name="btn_ingresar">Ingresar</string>
+
+    <string name="title_iniciar_sesion">Iniciar sesión</string>
+    <string name="title_recuperar">Recuperar contraseña</string>
+    <string name="_usuario">Usuario</string>
+    <string name="_contrasena">Contraseña</string>
+    <string name="_ingresa_correo">Ingresa tu correo registrado</string>
+    <string name="_correo">usuario@ejemplo.com</string>
+    <string name="_password">********</string>
+    <string name="_olvidaste">¿Olvidaste tu contraseña?</string>
+    <string name="enviar">Enviar codigo</string>
+
+
 </resources>
+
+

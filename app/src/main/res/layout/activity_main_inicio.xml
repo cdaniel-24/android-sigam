@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/orange_bg"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <!-- Logo SIGAM -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_logo_sigam" />
+
+    <!-- Título SIGAM POPAYÁN -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="SIGAM\nPOPAYÁN"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Subtítulo -->
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Sistema de Transporte\nmedico comunitario\ninteligente"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <!-- Imagen  Ambulancia -->
+    <ImageView
+        android:id="@+id/imgAmbulance"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_ambulance" />
+
+    <!-- Botón Iniciar sesión  -->
+    <Button
+        android:id="@+id/btnGoToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/black"
+        android:text="Iniciar sesión"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="0dp" />
+
+    <!-- Texto Registro -->
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="No tienes una cuenta? Regístrate."
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>
